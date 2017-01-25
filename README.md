@@ -2,7 +2,7 @@
 Administration dashboard demo made with React.js, ES6 (Babel).
 With reusable components and one-way reactive data flow.
 
-# Libraries
+## Libraries
 	- React.js
 	- Redux
 	- react-router
@@ -16,7 +16,7 @@ With reusable components and one-way reactive data flow.
 	- Font awesome - icon font
 	- Bootstrap (only the grid)
 
-# Run
+## Run
 Node.js is necessary to be installed.
 
 ```shell
@@ -24,6 +24,19 @@ npm install
 npm start
 ```
 
+## Build
+```shell
+npm run build
+```
+
+## Deploy (gh pages)
+```shell
+npm run deploy
+```
+
 Template skeleton based in [React Slingshot](https://github.com/coryhouse/react-slingshot).
+
+## Demo
+  https://maurobus.github.io/dashboard-react-demo
 
 [WIP]...

@@ -10,8 +10,8 @@ import NotFoundPage from './components/NotFoundPage.js';
 export default (
   <Route path="/" component={App}>
     <IndexRoute title="Dashboard" component={Dashboard} />
-    <Route path="/messages" title="Messages" component={Messages} />
-    <Route path="/users" title="Users" component={Users} />
+    <Route path="messages" title="Messages" component={Messages} />
+    <Route path="users" title="Users" component={Users} />
 
     <Route path="*" component={NotFoundPage} />
   </Route>

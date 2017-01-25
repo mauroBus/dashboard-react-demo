@@ -7,7 +7,7 @@ const Row = (props) => {
 
   return (
     <tr>
-      {props.data.map((item, key) => <td>{item}</td>)}
+      {props.data.map((item, key) => <td key={key}>{item}</td>)}
     </tr>
   );
 };
